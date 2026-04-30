@@ -106,5 +106,4 @@ Section 8 (`AdaptivePlan`) and the Section 10 supplement classes (`DriftDetector
 - **The injury risk model is population-based and intentionally not personalized** Users normally do not have enough injury events to train a logistic model without overfitting. Coefficients come from published literature (Gabbett 2016, Foster 1998).
 - **Granger causality and BOCPD are simplified versions** For research grade work, swap in `statsmodels.tsa.stattools.grangercausalitytests` and a true Bayesian Online Changepoint Detection implementation (Adams & MacKay 2007).
 - **Bayesian linear regression** Here is OLS with precision-weighted blending against a prior, not a full posterior. A real Bayesian implementation would use PyMC or Stan.
-- **Synthetic demo data** The bundled 6-month dataset is generated from a fixed-seed RNG; correlation/post-mortem outputs in the GUI reflect that synthetic structure, not real-world findings.
 - **Personalization takes time** Most features need 30 sessions before fitted parameters carry meaningful weight against the sport-science defaults.
