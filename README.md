@@ -1,3 +1,5 @@
+Do not use this code.  It has a ton of bugs since it is a first draft.  Leaving it up because I think it would be interesting to build on
+
 # Training-Optimizer
 
 A single-file in python that combines running, strength training, and user defined daily metrics to optimize training plans and predict the chances of successfully achieving goals.
