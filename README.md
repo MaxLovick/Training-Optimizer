@@ -1,4 +1,4 @@
-Do not use this code.  It has a ton of bugs since it is a first draft.  Leaving it up because I think it would be interesting to build on
+Do not use this code.  This is some claude slop.  Leaving it up because I think it would be interesting to build on
 
 # Training-Optimizer
 
